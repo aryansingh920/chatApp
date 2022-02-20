@@ -5,8 +5,8 @@ import './App.css';
 import {Tooltip} from '@material-ui/core'
 // import randomstring from "randomstring"
 
-// const socket = io.connect("https://pure-oasis-83352.herokuapp.com/");
-const socket = io.connect("http://localhost:3001");
+const socket = io.connect("https://mysterious-ravine-26643.herokuapp.com/");
+// const socket = io.connect("http://localhost:3001");
 
 function App() {
   const [username,setUsername] = useState("");
