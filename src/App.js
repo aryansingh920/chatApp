@@ -5,7 +5,7 @@ import './App.css';
 import {Tooltip} from '@material-ui/core'
 // import randomstring from "randomstring"
 
-const socket = io.connect("https://warm-basin-16187.herokuapp.com/", { transports: ['websocket', 'polling', 'flashsocket'] });
+const socket = io.connect("https://shielded-thicket-82720.herokuapp.com/", { transports: ['websocket', 'polling', 'flashsocket'] });
 // const socket = io.connect("http://localhost:3001", { transports: ['websocket', 'polling', 'flashsocket'] });
 
 function App() {
